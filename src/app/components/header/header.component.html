@@ -1,0 +1,21 @@
+<p-toolbar>
+  <div class="p-toolbar-group-start">
+    <p-button (click)="sidebarVisible = true" icon="pi pi-bars" />
+  </div>
+  <div class="p-toolbar-group-center">
+      <span class="p-input-icon-left">
+          <i class="pi pi-search"></i>
+          <input pInputText placeholder="Search" />
+      </span>
+  </div>
+  <div class="p-toolbar-group-end">
+    <p-inputSwitch [(ngModel)]="checked" />
+  </div>
+</p-toolbar>
+
+<p-sidebar [(visible)]="sidebarVisible">
+  <h3>Sidebar</h3>
+  <p>
+      Lorem ipsum dolor sit amet...
+  </p>
+</p-sidebar>
