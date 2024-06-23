@@ -82,13 +82,6 @@
     }
   },
   {
-    "name": "Gender-queer",
-    "typeThree": {
-      "category": "gender",
-      "definition": "A person whose gender identity is outside the traditional binary classification of male or female."
-    }
-  },
-  {
     "name": "Lesbian",
     "typeOne": {
       "category": "sexual",

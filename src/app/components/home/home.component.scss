@@ -10,11 +10,16 @@
     margin: 2rem 0;
 
     p-card {
-      width: 60%;
+      width: 70vw;
 
       .categories {
         display: flex;
-        gap: 1rem;
+        gap: 1.5rem;
+
+        .category {
+          display: flex;
+          flex-direction: column;
+        }
       }
     }
   }
