@@ -1,3 +1,31 @@
 @import "primeng/resources/themes/lara-dark-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
+
+.p-toolbar {
+  padding: 0.5rem 1rem;
+}
+
+.p-inputswitch {
+  .p-inputswitch-slider {
+    box-shadow: inset 0 0 0.6rem 0.1rem #2d364fbb;
+    &::before {
+      content: url('/icons/light-mode.svg');
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.2rem 0.1rem 0;
+      margin: -0.75rem 0 0 -0.1rem;
+    }
+  }
+
+  &.p-inputswitch-checked {
+    .p-inputswitch-slider {
+      box-shadow: inset 0 0 0.6rem 0.1rem #303d61bb;
+      &::before {
+        content: url('/icons/dark-mode.svg');
+        background:#303d61;
+      }
+    }
+  }
+}
