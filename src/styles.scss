@@ -36,3 +36,12 @@
     }
   }
 }
+
+.term-card {
+  .p-card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1.2rem;
+  }
+}

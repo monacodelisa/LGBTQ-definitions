@@ -1,6 +1,7 @@
 [
   {
     "name": "A-*",
+    "imageSrc": "/images/asexual.jpg",
     "typeOne": {
       "category": "A-sexual",
       "definition": "A person who does not experience sexual attraction to others."
@@ -67,18 +68,14 @@
     }
   },
   {
-    "name": "Gender-fluid",
+    "name": "Gender-*",
     "typeOne": {
-      "category": "sexual",
-      "definition": "A person whose sexual attraction fluctuates between genders or is fluid over time."
+      "category": "Gender-fluid",
+      "definition": "A person whose gender identity fluctuates or varies over time. They may identify with different genders at different times or in different circumstances."
     },
     "typeTwo": {
-      "category": "romantic",
-      "definition": "A person whose romantic attraction fluctuates between genders or is fluid over time."
-    },
-    "typeThree": {
-      "category": "gender",
-      "definition": "A person whose gender identity fluctuates between different genders or is fluid over time."
+      "category": "Gender-queer",
+      "definition": "A person whose gender identity is outside the traditional binary classification of male or female. They may identify with a gender that is neither exclusively male nor female, a combination of both, or a different gender altogether."
     }
   },
   {
@@ -90,6 +87,13 @@
     "typeTwo": {
       "category": "romantic",
       "definition": "A woman who is primarily romantically attracted to other women."
+    }
+  },
+  {
+    "name": "Non-binary",
+    "typeThree": {
+      "category": "gender",
+      "definition": "A person whose gender identity is not exclusively male or female. They may identify as both, neither, a mix of both, or as a different gender altogether."
     }
   },
   {

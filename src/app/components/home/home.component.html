@@ -1,24 +1,27 @@
 <div class="cards-wrapper">
   @for (term of LGBTQTerms; track term) {
-  <p-card header="{{term.name}}">
+  <p-card header="{{term.name}}" class="term-card">
+    <div class="image-wrapper">
+      <img src="{{term.imageSrc}}" alt="{{term.name}}">
+    </div>
     <div class="categories">
       @if (term.typeOne) {
-        <div class="category">
-          <h3>{{term.typeOne.category}}</h3>
-          <p>{{term.typeOne.definition}}</p>
-        </div>
+      <div class="category">
+        <h3>{{term.typeOne.category}}</h3>
+        <p>{{term.typeOne.definition}}</p>
+      </div>
       }
       @if (term.typeTwo) {
-        <div class="category">
-          <h3>{{term.typeTwo.category}}</h3>
-          <p>{{term.typeTwo.definition}}</p>
-        </div>
+      <div class="category">
+        <h3>{{term.typeTwo.category}}</h3>
+        <p>{{term.typeTwo.definition}}</p>
+      </div>
       }
       @if (term.typeThree) {
-        <div class="category">
-          <h3>{{term.typeThree.category}}</h3>
-          <p>{{term.typeThree.definition}}</p>
-        </div>
+      <div class="category">
+        <h3>{{term.typeThree.category}}</h3>
+        <p>{{term.typeThree.definition}}</p>
+      </div>
       }
     </div>
   </p-card>

@@ -1,5 +1,6 @@
 export interface LGBTQTerm {
   name: string;
+  imageSrc?: string;
   typeOne?: {
     category?: string;
     definition?: string;
