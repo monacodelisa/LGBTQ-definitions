@@ -1,0 +1,165 @@
+[
+  {
+    "name": "A-*",
+    "typeOne": {
+      "category": "A-sexual",
+      "definition": "A person who does not experience sexual attraction to others."
+    },
+    "typeTwo": {
+      "category": "A-romantic",
+      "definition": "A person who does not experience romantic attraction to others."
+    },
+    "typeThree": {
+      "category": "A-gender",
+      "definition": "A person who identifies as neither male nor female, or as neutral in terms of gender."
+    }
+  },
+  {
+    "name": "Androgynous",
+    "typeOne": {
+      "category": "sexual",
+      "definition": "A person who does not adhere to traditional gender roles and may have a mix of masculine and feminine characteristics."
+    },
+    "typeTwo": {
+      "category": "romantic",
+      "definition": "A person who does not adhere to traditional romantic roles based on gender."
+    },
+    "typeThree": {
+      "category": "gender",
+      "definition": "A person whose gender identity is a blend of male and female characteristics, or is indeterminate."
+    }
+  },
+  {
+    "name": "Bi-*",
+    "typeOne": {
+      "category": "Bi-sexual",
+      "definition": "A person who experiences sexual attraction to others without regard to gender, or to multiple genders."
+    },
+    "typeTwo": {
+      "category": "Bi-romantic",
+      "definition": "A person who experiences romantic attraction to others without regard to gender, or to multiple genders."
+    },
+    "typeThree": {
+      "category": "Bi-gender",
+      "definition": "A person who identifies as having two distinct gender identities, either simultaneously or alternately."
+    }
+  },
+  {
+    "name": "Demi-*",
+    "typeOne": {
+      "category": "Demi-sexual",
+      "definition": "A person who experiences sexual attraction only after forming a deep emotional bond with someone."
+    },
+    "typeTwo": {
+      "category": "Demi-romantic",
+      "definition": "A person who experiences romantic attraction only after forming a deep emotional bond with someone."
+    }
+  },
+  {
+    "name": "Gay",
+    "typeOne": {
+      "category": "sexual",
+      "definition": "A person who is primarily attracted to people of the same gender."
+    },
+    "typeTwo": {
+      "category": "romantic",
+      "definition": "A person who is primarily romantically attracted to people of the same gender."
+    }
+  },
+  {
+    "name": "Gender-fluid",
+    "typeOne": {
+      "category": "sexual",
+      "definition": "A person whose sexual attraction fluctuates between genders or is fluid over time."
+    },
+    "typeTwo": {
+      "category": "romantic",
+      "definition": "A person whose romantic attraction fluctuates between genders or is fluid over time."
+    },
+    "typeThree": {
+      "category": "gender",
+      "definition": "A person whose gender identity fluctuates between different genders or is fluid over time."
+    }
+  },
+  {
+    "name": "Gender-queer",
+    "typeThree": {
+      "category": "gender",
+      "definition": "A person whose gender identity is outside the traditional binary classification of male or female."
+    }
+  },
+  {
+    "name": "Lesbian",
+    "typeOne": {
+      "category": "sexual",
+      "definition": "A woman who is primarily attracted to other women."
+    },
+    "typeTwo": {
+      "category": "romantic",
+      "definition": "A woman who is primarily romantically attracted to other women."
+    }
+  },
+  {
+    "name": "Pan-*",
+    "typeOne": {
+      "category": "Pan-sexual",
+      "definition": "A person who is attracted to people of all gender identities."
+    },
+    "typeTwo": {
+      "category": "Pan-romantic",
+      "definition": "A person who is romantically attracted to people of all gender identities."
+    },
+    "typeThree": {
+      "category": "Pan-gender",
+      "definition": "A person who may identify with any gender or no gender."
+    }
+  },
+  {
+    "name": "Poly-*",
+    "typeOne": {
+      "category": "Poly-sexual",
+      "definition": "A person who is attracted to multiple genders, but not necessarily all genders."
+    },
+    "typeTwo": {
+      "category": "Poly-romantic",
+      "definition": "A person who is romantically attracted to multiple genders, but not necessarily all genders."
+    },
+    "typeThree": {
+      "category": "Poly-gender",
+      "definition": "A person who may identify with multiple genders."
+    }
+  },
+  {
+    "name": "Queer",
+    "typeOne": {
+      "category": "sexual",
+      "definition": "A term used by some individuals to describe their sexual orientation or gender identity in a way that does not conform to societal norms."
+    },
+    "typeTwo": {
+      "category": "romantic",
+      "definition": "A term used by some individuals to describe their romantic orientation in a way that does not conform to societal norms."
+    },
+    "typeThree": {
+      "category": "gender",
+      "definition": "A term used by some individuals to describe their gender identity in a way that does not conform to societal norms."
+    }
+  },
+  {
+    "name": "Trans-*",
+    "typeOne": {
+      "category": "Trans-sexual",
+      "definition": "A person who has undergone medical treatments to change their physical sex characteristics to align with their gender identity."
+    },
+    "typeThree": {
+      "category": "Trans-gender",
+      "definition": "A person whose gender identity differs from the sex they were assigned at birth."
+    }
+  },
+  {
+    "name": "Two-spirit",
+    "typeThree": {
+      "category": "gender",
+      "definition": "A term used by some Indigenous North American cultures to describe a person who embodies both masculine and feminine qualities, often possessing a spiritual role."
+    }
+  }
+]

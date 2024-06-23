@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  .cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+
+    p-card {
+      width: 60%;
+
+      .categories {
+        display: flex;
+        gap: 1rem;
+      }
+    }
+  }
+}
