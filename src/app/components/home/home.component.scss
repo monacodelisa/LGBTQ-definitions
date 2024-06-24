@@ -23,9 +23,13 @@
         border-radius: 1rem;
       }
     }
+  }
+}
 
-    .categories {
-      margin-top: 1.5rem;
+@media (max-width: 768px) {
+  .cards-wrapper {
+    p-card {
+      width: 90vw !important;
     }
   }
 }

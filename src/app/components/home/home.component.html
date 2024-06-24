@@ -5,15 +5,15 @@
       <img src="{{term.imageSrc}}" alt="{{term.name}}">
     </div>
     <div class="categories">
-      <p-tabView>
-      @for (type of term.types; track type) {
-          <p-tabPanel [header]="type.name">
-            <p>
-              {{ type.definition }}
-            </p>
-          </p-tabPanel>
+      <p-accordion [activeIndex]="0">
+        @for (type of term.types; track type) {
+        <p-accordionTab [header]="type.name">
+          <p class="m-0">
+            {{ type.definition }}
+          </p>
+        </p-accordionTab>
         }
-      </p-tabView>
+      </p-accordion>
     </div>
   </p-card>
   }

@@ -3,12 +3,12 @@ import { LGBTQTerm } from '../../models/term';
 import { DataService } from '../../services/data.service';
 
 import { CardModule } from 'primeng/card';
-import { TabViewModule } from 'primeng/tabview';
+import { AccordionModule } from 'primeng/accordion';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CardModule, TabViewModule],
+  imports: [CardModule, AccordionModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
