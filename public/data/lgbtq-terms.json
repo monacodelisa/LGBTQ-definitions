@@ -19,6 +19,7 @@
   },
   {
     "name": "Androgynous",
+    "imageSrc": "/images/androgynous.jpg",
     "types": [
       {
         "name": "sexual",
@@ -36,6 +37,7 @@
   },
   {
     "name": "Bi-*",
+    "imageSrc": "/images/bisexual.jpg",
     "types": [
       {
         "name": "Bi-sexual",
@@ -53,6 +55,7 @@
   },
   {
     "name": "Demi-*",
+    "imageSrc": "/images/demisexual.jpg",
     "types": [
       {
         "name": "Demi-sexual",
@@ -66,6 +69,7 @@
   },
   {
     "name": "Gay",
+    "imageSrc": "/images/gay.jpg",
     "types": [
       {
         "name": "sexual",
@@ -79,9 +83,11 @@
   },
   {
     "name": "Gender-*",
+    "imageSrc": "/images/gender-queer.jpg",
     "types": [
       {
         "name": "Gender-fluid",
+        "imageSrc": "/images/gender-fluid.jpg",
         "definition": "A person whose gender identity fluctuates or varies over time. They may identify with different genders at different times or in different circumstances."
       },
       {
@@ -92,6 +98,7 @@
   },
   {
     "name": "Lesbian",
+    "imageSrc": "/images/lesbian.jpg",
     "types": [
       {
         "name": "sexual",
