@@ -15,12 +15,22 @@
 
     .image-wrapper {
       display: flex;
+      flex-direction: column;
       justify-content: flex-start;
+      gap: 1rem;
+
       img {
-        width: 20vw;
-        height: 20vw;
+        width: 18vw;
+        height: 7vw;
         object-fit: cover;
+        object-position: center;
         border-radius: 1rem;
+
+        &.flag {
+          width: 18vw;
+          height: 12rem;
+          border-radius: 0.7rem;
+        }
       }
     }
   }

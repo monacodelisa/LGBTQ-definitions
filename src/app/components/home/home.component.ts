@@ -4,11 +4,12 @@ import { DataService } from '../../services/data.service';
 
 import { CardModule } from 'primeng/card';
 import { AccordionModule } from 'primeng/accordion';
+import { TooltipModule } from 'primeng/tooltip';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CardModule, AccordionModule],
+  imports: [CardModule, AccordionModule, TooltipModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

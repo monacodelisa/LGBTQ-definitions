@@ -2,7 +2,9 @@
   @for (term of LGBTQTerms; track term;) {
   <p-card header="{{term.name}}" class="term-card">
     <div class="image-wrapper">
-      <img src="{{term.imageSrc}}" alt="{{term.name}}">
+      <img src="{{term.flagSrc}}" class="flag" alt="{{term.name}}">
+      <img src="{{term.imageSrc}}" pTooltip="{{term.celeb}}"
+      tooltipPosition="top"  alt="{{term.name}}">
     </div>
     <div class="categories">
       <p-accordion [activeIndex]="0">

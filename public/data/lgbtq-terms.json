@@ -2,24 +2,28 @@
   {
     "name": "A-*",
     "imageSrc": "/images/asexual.jpg",
+    "flagSrc": "/images/asexual-flag.png",
+    "celeb": "Janeane Garofalo",
     "types": [
       {
-        "name": "A-sexual",
+        "name": "Asexual",
         "definition": "A person who does not experience sexual attraction to others."
       },
       {
-        "name": "A-romantic",
+        "name": "Aromantic",
         "definition": "A person who does not experience romantic attraction to others."
       },
       {
-        "name": "A-gender",
+        "name": "Agender",
         "definition": "A person who identifies as neither male nor female, or as neutral in terms of gender."
       }
     ]
   },
   {
     "name": "Androgynous",
+    "celeb": "Tilda Swinton",
     "imageSrc": "/images/androgynous.jpg",
+    "flagSrc": "/images/androgynous-flag.jpg",
     "types": [
       {
         "name": "sexual",
@@ -37,7 +41,9 @@
   },
   {
     "name": "Bi-*",
+    "celeb": "Tyler Blackburn",
     "imageSrc": "/images/bisexual.jpg",
+    "flagSrc": "/images/bisexual-flag.jpg",
     "types": [
       {
         "name": "Bi-sexual",
@@ -112,6 +118,7 @@
   },
   {
     "name": "Non-binary",
+    "imageSrc": "/images/nonbinary.jpg",
     "types": [
       {
         "name": "gender",
@@ -120,24 +127,43 @@
     ]
   },
   {
+    "name": "Omni-*",
+    "types": [
+      {
+        "name": "Omni-sexual",
+        "definition": "A person who is attracted to individuals of all genders, but gender plays a role in their attraction. They recognize gender as a factor in their attraction."
+      },
+      {
+        "name": "Omni-romantic",
+        "definition": "A person who experiences romantic attraction to individuals of all genders, but gender plays a role in their attraction. They recognize gender as a factor in their romantic attraction."
+      },
+      {
+        "name": "Omni-gender",
+        "definition": "A person whose gender identity encompasses many or all genders. They may experience a connection to multiple genders at once."
+      }
+    ]
+  },
+  {
     "name": "Pan-*",
+    "imageSrc": "/images/pansexual.jpg",
     "types": [
       {
         "name": "Pan-sexual",
-        "definition": "A person who is attracted to people of all gender identities."
+        "definition": "A person who is attracted to others regardless of their gender identity. They may feel attracted to individuals of any gender."
       },
       {
         "name": "Pan-romantic",
-        "definition": "A person who is romantically attracted to people of all gender identities."
+        "definition": "A person who experiences romantic attraction to others regardless of their gender identity. They may feel romantic attraction towards individuals of any gender."
       },
       {
         "name": "Pan-gender",
-        "definition": "A person who may identify with any gender or no gender."
+        "definition": "A person whose gender identity encompasses all genders. They may identify with multiple genders simultaneously or fluctuate between them."
       }
     ]
   },
   {
     "name": "Poly-*",
+    "imageSrc": "/images/polisexual.jpg",
     "types": [
       {
         "name": "Poly-sexual",
@@ -155,6 +181,7 @@
   },
   {
     "name": "Queer",
+    "imageSrc": "/images/queer.jpg",
     "types": [
       {
         "name": "sexual",
@@ -172,6 +199,8 @@
   },
   {
     "name": "Trans-*",
+    "imageSrc": "/images/trans-woman.jpg",
+    "celeb": "Valentina Sampaio",
     "types": [
       {
         "name": "Trans-sexual",
