@@ -14,6 +14,7 @@
     }
 
     .image-wrapper {
+      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -21,15 +22,19 @@
 
       img {
         width: 18vw;
-        height: 7vw;
+        height: 18vw;
         object-fit: cover;
-        object-position: center;
-        border-radius: 1rem;
+        border-radius: 0.7rem;
+        box-shadow: 0 0 0.5rem 0.1rem #2a2a2aea;
 
         &.flag {
-          width: 18vw;
-          height: 12rem;
-          border-radius: 0.7rem;
+          position: absolute;
+          top: 0.5rem;
+          right: 0.5rem;
+          width: 6vw;
+          height: 4rem;
+          border-radius: 0.6rem;
+          box-shadow: 0 0 0.5rem 0.1rem #2a2a2ab3;
         }
       }
     }
@@ -42,12 +47,18 @@
       width: 90vw !important;
 
       .image-wrapper {
-        justify-content: center;
+        align-items: center;
         width: 100%;
+
         img {
           width: 75vw;
           height: 75vw;
           margin-top: 1rem;
+
+          &.flag {
+            width: 25vw;
+            height: 16vw;
+          }
         }
       }
     }

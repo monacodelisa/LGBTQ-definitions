@@ -61,7 +61,9 @@
   },
   {
     "name": "Demi-*",
+    "celeb": "",
     "imageSrc": "/images/demisexual.jpg",
+    "flagSrc": "/images/demisexual-flag.jpg",
     "types": [
       {
         "name": "Demi-sexual",
