@@ -3,11 +3,12 @@ import { LGBTQTerm } from '../../models/term';
 import { DataService } from '../../services/data.service';
 
 import { CardModule } from 'primeng/card';
+import { TabViewModule } from 'primeng/tabview';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CardModule],
+  imports: [CardModule, TabViewModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -20,4 +21,5 @@ export class HomeComponent implements OnInit {
       this.LGBTQTerms = data;
     });
   }
+
 }
