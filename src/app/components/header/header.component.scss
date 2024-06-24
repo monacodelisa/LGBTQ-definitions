@@ -1,1 +1,22 @@
+.logo {
+  display: flex;
+  gap: 0.7rem;
+  margin-left: 1rem;
 
+  img {
+    width: 3.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem 0.1rem #2a2a2aea;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+}

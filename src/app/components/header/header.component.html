@@ -1,12 +1,19 @@
 <p-toolbar>
   <div class="p-toolbar-group-start">
     <p-button class="menu-toggle" (click)="sidebarVisible = true" icon="pi pi-bars" />
+    <div class="logo">
+      <img src="/images/Gay_Pride_Flag.png" alt="">
+      <div class="title">
+        <h2>LGBTQ</h2>
+        <p>Terms & Definitions</p>
+      </div>
+    </div>
   </div>
   <div class="p-toolbar-group-center">
-      <span class="p-input-icon-left">
-          <i class="pi pi-search"></i>
-          <input pInputText placeholder="Search" />
-      </span>
+    <span class="p-input-icon-left">
+      <i class="pi pi-search"></i>
+      <input pInputText placeholder="Search" />
+    </span>
   </div>
   <div class="p-toolbar-group-end">
     <p-inputSwitch [(ngModel)]="checked" />
@@ -16,6 +23,6 @@
 <p-sidebar [(visible)]="sidebarVisible">
   <h3>Sidebar</h3>
   <p>
-      Lorem ipsum dolor sit amet...
+    Lorem ipsum dolor sit amet...
   </p>
 </p-sidebar>
