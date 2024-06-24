@@ -93,13 +93,12 @@
   },
   {
     "name": "Gender-*",
-    "celeb": "",
-    "imageSrc": "/images/gender-queer.jpg",
+    "celeb": "Ruby Rose",
+    "imageSrc": "/images/genderfluid.jpg",
     "flagSrc": "/images/genderfluid-flag.png",
     "types": [
       {
         "name": "Gender-fluid",
-        "imageSrc": "/images/gender-fluid.jpg",
         "definition": "A person whose gender identity fluctuates or varies over time. They may identify with different genders at different times or in different circumstances."
       },
       {
@@ -110,7 +109,9 @@
   },
   {
     "name": "Lesbian",
+    "celeb": "Sarah Paulson",
     "imageSrc": "/images/lesbian.jpg",
+    "flagSrc": "/images/lesbian-flag.jpg",
     "types": [
       {
         "name": "sexual",
@@ -124,7 +125,9 @@
   },
   {
     "name": "Non-binary",
+    "celeb": "Jonathan Van Ness",
     "imageSrc": "/images/nonbinary.jpg",
+    "flagSrc": "/images/nonbinary-flag.jpg",
     "types": [
       {
         "name": "gender",
