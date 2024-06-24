@@ -46,15 +46,15 @@
     "flagSrc": "/images/bisexual-flag.jpg",
     "types": [
       {
-        "name": "Bi-sexual",
+        "name": "Bisexual",
         "definition": "A person who experiences sexual attraction to others without regard to gender, or to multiple genders."
       },
       {
-        "name": "Bi-romantic",
+        "name": "Biromantic",
         "definition": "A person who experiences romantic attraction to others without regard to gender, or to multiple genders."
       },
       {
-        "name": "Bi-gender",
+        "name": "Bigender",
         "definition": "A person who identifies as having two distinct gender identities, either simultaneously or alternately."
       }
     ]
@@ -66,11 +66,11 @@
     "flagSrc": "/images/demisexual-flag.png",
     "types": [
       {
-        "name": "Demi-sexual",
+        "name": "Demisexual",
         "definition": "A person who experiences sexual attraction only after forming a deep emotional bond with someone."
       },
       {
-        "name": "Demi-romantic",
+        "name": "Demiromantic",
         "definition": "A person who experiences romantic attraction only after forming a deep emotional bond with someone."
       }
     ]
@@ -98,11 +98,11 @@
     "flagSrc": "/images/genderfluid-flag.png",
     "types": [
       {
-        "name": "Gender-fluid",
+        "name": "Genderfluid",
         "definition": "A person whose gender identity fluctuates or varies over time. They may identify with different genders at different times or in different circumstances."
       },
       {
-        "name": "Gender-queer",
+        "name": "Genderqueer",
         "definition": "A person whose gender identity is outside the traditional binary classification of male or female. They may identify with a gender that is neither exclusively male nor female, a combination of both, or a different gender altogether."
       }
     ]
@@ -142,15 +142,15 @@
     "flagSrc": "/images/omnisexual-flag.png",
     "types": [
       {
-        "name": "Omni-sexual",
+        "name": "Omnisexual",
         "definition": "A person who is attracted to individuals of all genders, but gender plays a role in their attraction. They recognize gender as a factor in their attraction."
       },
       {
-        "name": "Omni-romantic",
+        "name": "Omniromantic",
         "definition": "A person who experiences romantic attraction to individuals of all genders, but gender plays a role in their attraction. They recognize gender as a factor in their romantic attraction."
       },
       {
-        "name": "Omni-gender",
+        "name": "Omnigender",
         "definition": "A person whose gender identity encompasses many or all genders. They may experience a connection to multiple genders at once."
       }
     ]
@@ -162,15 +162,15 @@
     "flagSrc": "/images/pansexual-flag.png",
     "types": [
       {
-        "name": "Pan-sexual",
+        "name": "Pansexual",
         "definition": "A person who is attracted to others regardless of their gender identity. They may feel attracted to individuals of any gender."
       },
       {
-        "name": "Pan-romantic",
+        "name": "Panromantic",
         "definition": "A person who experiences romantic attraction to others regardless of their gender identity. They may feel romantic attraction towards individuals of any gender."
       },
       {
-        "name": "Pan-gender",
+        "name": "Pangender",
         "definition": "A person whose gender identity encompasses all genders. They may identify with multiple genders simultaneously or fluctuate between them."
       }
     ]
@@ -182,15 +182,15 @@
     "flagSrc": "/images/polisexual-flag.png",
     "types": [
       {
-        "name": "Poly-sexual",
+        "name": "Polysexual",
         "definition": "A person who is attracted to multiple genders, but not necessarily all genders."
       },
       {
-        "name": "Poly-romantic",
+        "name": "Polyromantic",
         "definition": "A person who is romantically attracted to multiple genders, but not necessarily all genders."
       },
       {
-        "name": "Poly-gender",
+        "name": "Polygender",
         "definition": "A person who may identify with multiple genders."
       }
     ]
@@ -223,11 +223,11 @@
 
     "types": [
       {
-        "name": "Trans-sexual",
+        "name": "Transsexual",
         "definition": "A person who has undergone medical treatments to change their physical sex characteristics to align with their gender identity."
       },
       {
-        "name": "Trans-gender",
+        "name": "Transgender",
         "definition": "A person whose gender identity differs from the sex they were assigned at birth."
       }
     ]

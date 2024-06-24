@@ -1,27 +1,32 @@
-# LgbtqDefinitions
+# LGBTQ Definitions
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+Welcome to the LGBTQ Definitions repository! 
 
-## Development server
+This is an **open-source** project created for educational purposes to help foster understanding and awareness of LGBTQ+ terms and identities. In a world where there are still many close-minded perspectives, this website aims to provide clear and accurate definitions to prevent misconceptions and incorrect associations.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Overview
 
-## Code scaffolding
+I developed this website to provide a resource for anyone seeking to understand LGBTQ+ terms better. It's important to note that supporting LGBTQ+ individuals or their rights does not necessarily mean someone is part of the LGBTQ+ community. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Likewise, one's appearance does not dictate their sexual orientation or gender identity. This distinction is crucial for preventing wrong associations and fostering a more inclusive environment.
 
-## Build
+## Purpose 
+- **Educational Resource**: To offer clear definitions and explanations of various LGBTQ+ terms.
+- **Prevent Misconceptions**: To prevent people from making incorrect associations based on appearance or support for LGBTQ+ rights.
+- **Guidance for Older Generations**: To provide an accessible and understandable guide for individuals from older generations who may find the newer terms overwhelming.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Contributions & Improvements
 
-## Running unit tests
+I have provided initial information to the best of my knowledge. However, I am aware that there may be inaccuracies or outdated information. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+I welcome contributions and corrections from the community to ensure that this resource remains accurate and up-to-date.
 
-## Running end-to-end tests
+## How to Contribute
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+If you have any corrections, updates, or new terms to add, please refer to the [Contributing Guide]() for instructions on how to contribute to this project.
 
-## Further help
+Thank you for your interest in promoting understanding and acceptance. Together, we can make a difference!
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<hr>
+
+This project was generated with Angular CLI version 18.0.3.
