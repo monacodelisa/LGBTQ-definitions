@@ -1,0 +1,20 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // height: 100vh;
+  width: 100%;
+
+  p-card {
+    text-align: center;
+    width: 55vw;
+    margin: 2rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  p-card {
+    width: 90vw !important;
+
+  }
+}

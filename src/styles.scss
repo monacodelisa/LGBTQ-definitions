@@ -2,6 +2,11 @@
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 
+a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
 .p-toolbar {
   padding: 0.5rem 1rem;
 }
@@ -50,6 +55,19 @@
     align-items: flex-start;
     gap: 1.5rem;
     padding: 1.2rem;
+  }
+}
+
+.about {
+  .p-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.2rem;
+
+    p {
+      margin: 0;
+    }
   }
 }
 

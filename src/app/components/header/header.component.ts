@@ -6,11 +6,13 @@ import { ButtonModule } from "primeng/button";
 import { InputSwitchModule } from "primeng/inputswitch";
 import { InputTextModule } from "primeng/inputtext";
 import { SidebarModule } from 'primeng/sidebar';
+import { RouterLink } from "@angular/router";
 
 @Component({
 	selector: "app-header",
 	standalone: true,
 	imports: [
+    RouterLink,
 		FormsModule,
 		ToolbarModule,
 		ButtonModule,
