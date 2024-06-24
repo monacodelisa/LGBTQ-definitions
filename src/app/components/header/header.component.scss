@@ -19,4 +19,11 @@
     font-size: 0.9rem;
     margin: 0;
   }
+
+}
+
+@media (max-width: 768px) {
+  .logo {
+    align-items: center;
+  }
 }

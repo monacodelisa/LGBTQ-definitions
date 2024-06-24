@@ -127,7 +127,7 @@
     "name": "Non-binary",
     "celeb": "Jonathan Van Ness",
     "imageSrc": "/images/nonbinary.jpg",
-    "flagSrc": "/images/nonbinary-flag.jpg",
+    "flagSrc": "/images/nonbinary-flag.png",
     "types": [
       {
         "name": "gender",
@@ -137,6 +137,9 @@
   },
   {
     "name": "Omni-*",
+    "celeb": "Jack Harkness - Fictional character",
+    "imageSrc": "/images/omnisexual.jpg",
+    "flagSrc": "/images/omnisexual-flag.png",
     "types": [
       {
         "name": "Omni-sexual",
@@ -154,7 +157,9 @@
   },
   {
     "name": "Pan-*",
+    "celeb": "Madison Bailey",
     "imageSrc": "/images/pansexual.jpg",
+    "flagSrc": "/images/pansexual-flag.png",
     "types": [
       {
         "name": "Pan-sexual",
@@ -172,7 +177,9 @@
   },
   {
     "name": "Poly-*",
+    "celeb": "",
     "imageSrc": "/images/polisexual.jpg",
+    "flagSrc": "/images/polisexual-flag.png",
     "types": [
       {
         "name": "Poly-sexual",
@@ -190,7 +197,9 @@
   },
   {
     "name": "Queer",
+    "celeb": "Cara Delevingne",
     "imageSrc": "/images/queer.jpg",
+    "flagSrc": "/images/queer-flag.jpg",
     "types": [
       {
         "name": "sexual",
@@ -208,8 +217,10 @@
   },
   {
     "name": "Trans-*",
-    "imageSrc": "/images/trans-woman.jpg",
     "celeb": "Valentina Sampaio",
+    "imageSrc": "/images/trans-woman.jpg",
+    "flagSrc": "/images/trans-flag.jpg",
+
     "types": [
       {
         "name": "Trans-sexual",
@@ -223,6 +234,9 @@
   },
   {
     "name": "Two-spirit",
+    "celeb": "Geo Neptune",
+    "imageSrc": "/images/two-spirit.jpg",
+    "flagSrc": "/images/two-spirit-flag.jpg",
     "types": [
       {
         "name": "gender",

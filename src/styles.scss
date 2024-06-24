@@ -13,6 +13,10 @@
   }
 }
 
+.p-toolbar-group-end {
+  gap: 0.7rem;
+}
+
 .p-inputswitch {
   .p-inputswitch-slider {
     box-shadow: inset 0 0 0.6rem 0.1rem #2d364fbb;
@@ -75,5 +79,9 @@
       flex-direction: column;
       padding: 0;
     }
+  }
+
+  .p-toolbar{
+    flex-wrap: nowrap;
   }
 }
