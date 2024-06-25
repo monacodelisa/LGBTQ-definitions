@@ -1,4 +1,6 @@
 <app-header />
 <router-outlet />
-<app-scroll-to-top />
+@if (showScrollButton) {
+    <p-button class="scroll-btn" (click)="scrollToTop()" icon="pi pi-angle-up" [rounded]="true" size="large"></p-button>
+}
 <app-footer />
