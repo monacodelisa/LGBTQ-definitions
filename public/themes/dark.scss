@@ -1,0 +1,29 @@
+@import "primeng/resources/themes/lara-dark-blue/theme.css";
+
+.logo {
+  img {
+    box-shadow: 0 0 0.5rem 0.1rem #171717ea;
+  }
+}
+
+.image-wrapper {
+  img {
+    box-shadow: 0 0 0.5rem 0.1rem #2a2a2aea;
+  }
+}
+
+
+.p-highlight {
+  background-color: #4c525b93;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 0.5rem 0.5rem 0 0;
+
+  a {
+    background: #4c525b93;
+    border-color: #60a5fa;
+    color: #60a5fa;
+    overflow: hidden;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+}

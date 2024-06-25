@@ -1,4 +1,4 @@
-@import "primeng/resources/themes/lara-dark-blue/theme.css";
+// @import "primeng/resources/themes/lara-dark-blue/theme.css";
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 
@@ -68,21 +68,6 @@ a {
     p {
       margin: 0;
     }
-  }
-}
-
-.p-highlight {
-  background-color: #4c525b93;
-  color: #fff;
-  overflow: hidden;
-  border-radius: 0.5rem 0.5rem 0 0;
-
-  a {
-    background: #4c525b93;
-    border-color: #60a5fa;
-    color: #60a5fa;
-    overflow: hidden;
-    border-radius: 0.5rem 0.5rem 0 0;
   }
 }
 

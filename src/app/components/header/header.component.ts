@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, inject } from "@angular/core";
 import { FormsModule } from "@angular/forms";
 
 import { ToolbarModule } from "primeng/toolbar";
@@ -7,6 +7,7 @@ import { InputSwitchModule } from "primeng/inputswitch";
 import { InputTextModule } from "primeng/inputtext";
 import { SidebarModule } from 'primeng/sidebar';
 import { RouterLink } from "@angular/router";
+import { ThemeService } from "../../services/theme.service";
 
 @Component({
 	selector: "app-header",
@@ -26,4 +27,11 @@ import { RouterLink } from "@angular/router";
 export class HeaderComponent {
 	checked = true;
   sidebarVisible: boolean = false;
+  selectedTheme: string = "dark";
+  themeService = inject(ThemeService);
+
+  onThemeChange(theme: string): void {
+		this.selectedTheme = theme;
+		this.themeService.setTheme(theme);
+	}
 }
