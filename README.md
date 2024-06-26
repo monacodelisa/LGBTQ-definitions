@@ -30,3 +30,5 @@ Thank you for your interest in promoting understanding and acceptance. Together,
 <hr>
 
 This project was generated with Angular CLI version 18.0.3.
+
+UI Library - PrimeNG
