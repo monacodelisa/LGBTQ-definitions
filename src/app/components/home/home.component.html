@@ -1,22 +1,31 @@
+<form [formGroup]="filterForm" class="search-form">
+  <span class="p-input-icon-left">
+    <input pInputText formControlName="filter" type="text" placeholder="Search..." (input)="filterResults()">
+  </span>
+  <button pButton type="button" class="pi pi-times" (click)="clearFilter()"></button>
+</form>
+
 <div class="cards-wrapper">
-  @for (term of LGBTQTerms; track term;) {
-  <p-card header="{{term.name}}" class="term-card">
-    <div class="image-wrapper">
-      <img src="{{term.flagSrc}}" class="flag" alt="{{term.name}}">
-      <img src="{{term.imageSrc}}" pTooltip="{{term.celeb}}"
-      tooltipPosition="top"  alt="{{term.name}}">
+  <ng-container *ngIf="filteredTerms.length > 0; else noTerms">
+    <p-card *ngFor="let term of filteredTerms; trackBy: trackByTerm" header="{{term.name}}" class="term-card">
+      <div class="image-wrapper">
+        <img [src]="term.flagSrc" class="flag" [alt]="term.name">
+        <img [src]="term.imageSrc" pTooltip="{{term.celeb}}" tooltipPosition="top" [alt]="term.name">
+      </div>
+      <div class="categories">
+        <p-accordion [activeIndex]="0">
+          <p-accordionTab *ngFor="let type of term.types; trackBy: trackByType" [header]="type.name">
+            <p class="m-0">
+              {{ type.definition }}
+            </p>
+          </p-accordionTab>
+        </p-accordion>
+      </div>
+    </p-card>
+  </ng-container>
+  <ng-template #noTerms>
+    <div class="no-terms-message">
+      <img src="/images/error404.gif" alt="No Terms Available">
     </div>
-    <div class="categories">
-      <p-accordion [activeIndex]="0">
-        @for (type of term.types; track type) {
-        <p-accordionTab [header]="type.name">
-          <p class="m-0">
-            {{ type.definition }}
-          </p>
-        </p-accordionTab>
-        }
-      </p-accordion>
-    </div>
-  </p-card>
-  }
+  </ng-template>
 </div>
