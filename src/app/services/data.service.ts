@@ -19,6 +19,5 @@ export class DataService {
 
   setSearchTerm(term: string) {
     this.searchTermSubject.next(term);
-    console.log('search term set to:', term);
   }
 }
