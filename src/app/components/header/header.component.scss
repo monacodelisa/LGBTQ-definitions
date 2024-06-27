@@ -29,7 +29,11 @@ nav {
   .logo {
     align-items: center;
   }
-  .searchbox{
+  .search {
     width:100%;
+
+    input {
+      width: 100%;
+    }
   }
 }
